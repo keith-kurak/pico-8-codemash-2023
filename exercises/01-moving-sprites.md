@@ -18,8 +18,8 @@ Move a sprite around with the D-pad
 ### The Three Callbacks
 <img src="./assets/three-callbacks.png" width="400"/>
 ### New API's
-[SPR](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SPR) - draw a sprite
-[BTN](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#BTN) - respond to a button press
+- (SPR)[https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SPR] - draw a sprite
+- (BTN)[https://www.lexaloffle.com/dl/docs/pico-8_manual.html#BTN] - respond to a button press
 ## How to code it
 ### 1. Make a sprite
 The second tab in the IDE is the sprite editor. It's pretty WYSIWYG.
