@@ -27,12 +27,13 @@ Just like your first sprite, but make it some nondescript piece of land or rock 
 ### 2. Draw a map with your land sprite
 Draw some lightly rolling hills within the first 16 vertical blocks. Go at least 32-64 horizontal blocks, so you can see what happens when you scroll.
 
-### 3. Apply the map and camera
+### 3. Apply the map and camera to your draw function
+This will move the camera as your sprite moves, and draw the entire map, so you can move freely about it.
 ```diff
   function _draw()
     cls()
-+    camera(x-24,0)
-+    map()
++   camera(x-24,0)
++   map()
     spr(0,x,y)
   end
 ```
