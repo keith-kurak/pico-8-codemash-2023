@@ -28,7 +28,7 @@ function _init()
 end
 ```
 Also add a constant above `_init()`:
-```
+```lua
 -- constants
 max_speed = 1.5
 ```
@@ -67,7 +67,7 @@ function _update60()
 At this point, the player should be able to move left/ right, but will fall through the floor.
 
 ### 4. Add a map tile collision function
-Create a second code tab, and add this:
+Create a second code tab (tab 1), and add this:
 ```lua
 -- collision function
 function hit(x,y,w,h,flag)
