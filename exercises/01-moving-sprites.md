@@ -16,7 +16,7 @@ Move a sprite around with the D-pad
 - `load [filename]` - load a code file
 - `help` - view list of terminal commands
 ### The Three Callbacks
-![image info](./assets/three-callbacks.png)
+<img src="./assets/three-callbacks.png" width="200"/>
 ### New API's
 [SPR](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SPR) - draw a sprite
 [BTN](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#BTN) - respond to a button press
