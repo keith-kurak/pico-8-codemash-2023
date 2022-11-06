@@ -1,4 +1,4 @@
-# Hello, Sprites!
+# Hello, Sprites! / Make sure this thing is working
 ## Goal
 Move a sprite around with the D-pad
 ## Tasks
@@ -24,6 +24,7 @@ Move a sprite around with the D-pad
 ## How to code it
 ### 1. Make a sprite
 The second tab in the IDE is the sprite editor. It's pretty WYSIWYG.
+Make it something fun that you might want to animate later. A person! An octopus! A toaster! Be creative!
 ### 2. Code it
 No special instructions here, just paste this in.
 ```
@@ -53,3 +54,8 @@ function _update()
  end
 end
 ```
+### Stretch goals
+If you need more to do, here's some ideas:
+- Set the screen to a different color
+- Animate the sprite (2 frames on a fixed interval)
+- Make a sound effect when you press a button
