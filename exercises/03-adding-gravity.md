@@ -14,7 +14,7 @@ Apply collision/ gravity and make your sprite move on top of the map tiles
 
 ### 2. Refactor player variables into table
 Replace your `_init()` with this:
-```
+```lua
 function _init()
  player = {
   x = 64,
@@ -36,7 +36,7 @@ max_speed = 1.5
 
 ### 3. Refactor update to use player table
 Replace your `_update()` function with this `_update60()` function (supports 60 FPS):
-```
+```lua
 function _update60()
  local p = player
  -- apply gravity
@@ -68,7 +68,7 @@ At this point, the player should be able to move left/ right, but will fall thro
 
 ### 4. Add a map tile collision function
 Create a second code tab, and add this:
-```
+```lua
 -- collision function
 function hit(x,y,w,h,flag)
  collide=false
@@ -85,7 +85,7 @@ end
 ```
 
 Now, add collision to `_update60()` directly after your button presses:
-```
+```lua
  -- check wall coll
  if hit(p.x+p.dx,p.y,7,7,1) then
   player.dx=0
@@ -103,7 +103,7 @@ At this point, the sprite should stop falling through the floor
 
 ### 5. Add jump
 Add this directly after your left/ right button presses:
-```
+```lua
  -- jump
  if btnp(🅾️) and
    (p.on_ground or p.jump<1) then
