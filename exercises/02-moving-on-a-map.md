@@ -1,10 +1,11 @@
-# Map
+# Moving about a map
 ## Goal
 Move a sprite around with the D-pad
 ## Tasks
-1. Create a sprite with the sprite editor
-2. Draw the sprite on the screen with an initial location
-3. Move the sprite with the four arrow buttons
+1. Create a "block" sprite
+2. Draw a floor on the map
+3. Draw the map on the screen
+4. Move the camera with the player sprite
 ## Useful Info
 - Map is 128x128 sprites (but shares bottom 64 rows with sprite sheet)
 - On map editor, use the hand tool to pan, two finger scroll to zoom in/ out
