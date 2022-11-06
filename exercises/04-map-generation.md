@@ -79,7 +79,7 @@ Also update `gen_map()` as such:
 	set_map_x(1,i)
 --set_map_x(1,i+112)
  end
- ++ end
+++end
 	-- set variable space
  for i=16,111 do
 ```
@@ -101,5 +101,5 @@ end
 ++if needs_missing_map and p.x >= (36-12)*8 then
 ++ gen_missing_map()
 ++ needs_missing_map = false
-end
+++end
 ```
