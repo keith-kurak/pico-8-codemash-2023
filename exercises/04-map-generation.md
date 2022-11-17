@@ -16,13 +16,13 @@ Add this to code tab 2. `gen_floor_height()` is a bit of slightly-premature opti
 function gen_map()
  -- set flat space at begin/ end
  for i=0,15 do
-	set_map_x(1,i)
-  set_map_x(1,i+112)
+		set_map_x(1,i)
+ 	set_map_x(1,i+112)
  end
 	-- set variable space
  for i=16,111 do
-	local flr_hgt = gen_floor_height()
-	set_map_x(flr_hgt,i)
+  local flr_hgt = gen_floor_height()
+  set_map_x(flr_hgt,i)
  end
 end
 
