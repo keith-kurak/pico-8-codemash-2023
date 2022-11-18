@@ -9,7 +9,10 @@ Make an annoying music loop and a jump sound
 ### New API's
 
 ## How to ~~code~~ compose it
-### Kesha - Tik Tok
+[Go to Kesha](#foo)
+[Go to Dua Lipa](#foo)
+[Go to Taylor Swift](#foo)
+### Kesha - TiK ToK
 #### Vocal (melody) track
 <img src="./assets/music/kesha/kesha-vocals-1.png" width="400"/>
 
@@ -40,3 +43,68 @@ This plays over the last vocal SFX
 Repeat this for the entire loop
 
 <img src="./assets/music/kesha/kesha-drums.png" width="400"/>
+
+### Dua Lipa - Levitating
+
+#### Vocal (melody) track
+
+<img src="./assets/music/dualipa/dua-vocals-1.png" width="400"/>
+
+_🎵You want me, I want you, baby, My sugarboo, I'm levitating🎵_
+
+<img src="./assets/music/dualipa/dua-vocals-2.png" width="400"/>
+
+_🎵The Milky Way, we're renegading, Yeah, yeah, yeah, yeah, yeah🎵_
+
+<img src="./assets/music/dualipa/dua-vocals-3.png" width="400"/>
+
+_🎵I got you, moonlight, you're my starlight🎵_
+
+<img src="./assets/music/dualipa/dua-vocals-4.png" width="400"/>
+
+_🎵I need you all night, come on, dance with me, I'm levitating🎵_
+
+#### Bass track
+This repeats for the whole loop
+
+<img src="./assets/music/dualipa/dua-bass.png" width="400"/>
+
+#### Drum track
+Repeat this for the entire loop
+
+<img src="./assets/music/dualipa/dua-drums.png" width="400"/>
+
+### Taylor Swift - Anti-Hero
+
+#### Vocal (melody) track
+
+Repeat this SFX twice
+
+<img src="./assets/music/tswift/tay-vocals-1-and-2.png" width="400"/>
+
+_🎵It's me, hi, I'm the problem, it's me🎵_
+_🎵At tea time, everybody agrees🎵_
+
+Layer this SFX on top of those two repeated bars
+
+<img src="./assets/music/tswift/tay-vocals-1-and-2-harmony.png" width="400"/>
+
+Then finish up with these last two bars...
+
+<img src="./assets/music/tswift/tay-vocals-3.png" width="400"/>
+
+_🎵I'll stare directly at the sun but never in the mirror🎵_
+
+<img src="./assets/music/tswift/tay-vocals-4.png" width="400"/>
+
+_🎵It must be exhausting, always rooting for the anti-hero🎵_
+
+#### Bass track
+This repeats for the whole loop
+
+<img src="./assets/music/tswift/tay-bass.png" width="400"/>
+
+#### Drum track
+Repeat this for the entire loop
+
+<img src="./assets/music/tswift/tay-drums.png" width="400"/>
