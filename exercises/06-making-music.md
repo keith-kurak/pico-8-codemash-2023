@@ -92,6 +92,7 @@ Repeat this SFX twice
 <img src="./assets/music/tswift/tay-vocals-1-and-2.png" width="400"/>
 
 _🎵It's me, hi, I'm the problem, it's me🎵_
+
 _🎵At tea time, everybody agrees🎵_
 
 Layer this SFX on top of those two repeated bars
