@@ -9,9 +9,14 @@ Make an annoying music loop and a jump sound
 ### New API's
 
 ## How to ~~code~~ compose it
-[Go to Kesha](#foo)
-[Go to Dua Lipa](#foo)
-[Go to Taylor Swift](#foo)
+[Go to Kesha](#kesha---tik-tok)
+
+[Go to Dua Lipa](#dua-lipa---levitating)
+
+[Go to Taylor Swift](#taylor-swift---anti-hero)
+
+---
+
 ### Kesha - TiK ToK
 #### Vocal (melody) track
 <img src="./assets/music/kesha/kesha-vocals-1.png" width="400"/>
@@ -44,6 +49,8 @@ Repeat this for the entire loop
 
 <img src="./assets/music/kesha/kesha-drums.png" width="400"/>
 
+---
+
 ### Dua Lipa - Levitating
 
 #### Vocal (melody) track
@@ -73,6 +80,8 @@ This repeats for the whole loop
 Repeat this for the entire loop
 
 <img src="./assets/music/dualipa/dua-drums.png" width="400"/>
+
+---
 
 ### Taylor Swift - Anti-Hero
 
