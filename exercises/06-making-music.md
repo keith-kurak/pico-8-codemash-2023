@@ -9,11 +9,31 @@ Make an annoying music loop and a jump sound
 ### New API's
 
 ## How to ~~code~~ compose it
+### 1. Compose your music
 [Go to Kesha](#kesha---tik-tok)
 
 [Go to Dua Lipa](#dua-lipa---levitating)
 
 [Go to Taylor Swift](#taylor-swift---anti-hero)
+
+### 2. Play the music when the game starts
+Play music in `_init()`:
+```lua
+music(0)
+```
+
+Stop the music in the game over condition in `_update60()`:
+```lua
+music(-1)
+```
+
+### 3. Add a sound effect when the player jumps
+Compose one more track for a jump sound. Play around with it (maybe use the level composer) and see what sounds good.
+
+Then, play that sound effect when the player jumps in `_update60()`:
+```
+sfx(12)
+```
 
 ---
 
