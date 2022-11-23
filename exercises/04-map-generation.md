@@ -11,9 +11,22 @@ Generate a random map and keep the player moving throughout it indefinitely.
 3. Generate random map for the overlapping spaces to complete the effect
 
 ## Useful info
+### Concepts
+- [Lua loops](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Loops)
 
 ### New API's
+[MSET](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#MSET)
+```
+MGET(X, Y)
+MSET(X, Y, VAL)
+Get or set map value (VAL) at X,Y
+```
+[RND](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RND)
+```
+Returns a random number n, where 0 <= n < x
 
+If you want an integer, use flr(rnd(x)).
+```
 ## How to code it
 
 We will put the map generation functions on code tab 2 to keep things somewhat tidy.
