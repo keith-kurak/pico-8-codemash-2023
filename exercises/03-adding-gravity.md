@@ -6,7 +6,27 @@ Apply collision/ gravity and make your sprite move on top of the map tiles
 2. Apply gravity to sprite
 3. Add jump button
 ## Useful info
+### Concepts
+- [Lua tables](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#Tables)
 ### New API's
+[MGET](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#MGET)
+```
+MGET(X, Y)
+MSET(X, Y, VAL)
+Get or set map value (VAL) at X,Y
+
+When X and Y are out of range, MGET returns 0.
+```
+[FGET](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#FGET)
+```
+FGET(N, [F])
+FSET(N, [F], VAL)
+Get or set the value (VAL) of sprite N's flag F.
+
+F is the flag index 0..7.
+
+VAL is TRUE or FALSE.
+```
 
 ## How to code it
 ### 1. Set collision bit on map sprite

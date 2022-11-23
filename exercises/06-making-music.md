@@ -7,7 +7,19 @@ Make an annoying music loop and a jump sound
 3. Add a sound when the player jumps
 ## Useful info
 ### New API's
+[SFX](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SFX)
+```
+SFX(N, [CHANNEL], [OFFSET], [LENGTH])
+Play sfx N (0..63) on CHANNEL (0..3) from note OFFSET (0..31 in notes) for LENGTH notes.
+```
+[MUSIC](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#MUSIC)
+```
+MUSIC(N, [FADE_LEN], [CHANNEL_MASK])
+Play music starting from pattern N (0..63)
+N -1 to stop music
 
+FADE_LEN is in ms (default: 0)
+```
 ## How to ~~code~~ compose it
 ### 1. Compose your music
 [Go to Kesha](#kesha---tik-tok)

@@ -8,6 +8,11 @@ Further motivate the player to proceed forward by creating level progression
 4. Add a basic "title screen" state
 ## Useful info
 ### New API's
+[RECTFILL](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#RECTFILL)
+```
+RECTFILL(X0, Y0, X1, Y1, [COL])
+Draw a rectangle or filled rectangle with corners at (X0, Y0), (X1, Y1).
+```
 
 ## How to code it
 ### 1. Update the level

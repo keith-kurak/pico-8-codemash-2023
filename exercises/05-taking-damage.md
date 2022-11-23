@@ -7,6 +7,12 @@ Create a failure state by creating tiles that cause damage
 3. Detect collision with damage tiles and put player into "game over" state
 ## Useful info
 ### New API's
+[PRINT](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#PRINT)
+```
+PRINT(STR, X, Y, [COL])
+PRINT(STR, [COL])
+Print a string STR and optionally set the draw colour to COL.
+```
 
 ## How to code it
 ### 1. Make a lava sprite

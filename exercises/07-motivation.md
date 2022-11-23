@@ -7,7 +7,22 @@ Keep the player from going backwards and motivate them to go forwards
 3. Save a high score
 ## Useful info
 ### New API's
+[CARTDATA](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#CARTDATA)
+```
+Opens a permanent data storage slot indexed by ID that can be used to store and retrieve up to 256 bytes (64 numbers) worth of data using DSET() and DGET().
+```
+[DGET](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#DGET)
+```
+Get the number stored at INDEX (0..63)
 
+Use this only after you have called CARTDATA()
+```
+[DSET](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#DSET)
+```
+Set the number stored at index (0..63)
+
+Use this only after you have called CARTDATA()
+```
 ## How to code it
 ### 1. Add sprite-to-sprite collision
 In tab 1, add this function to test if two sprites hit each other:

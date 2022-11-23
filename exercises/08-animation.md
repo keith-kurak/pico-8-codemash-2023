@@ -8,7 +8,7 @@ Make the world more life-like by animating it
 4. Animate the evil wall with more traditional timed sprite animation
 ## Useful info
 ### New API's
-
+Nothing new here! Just expanding our use of `SPR` and `MAP`.
 ## How to code it
 These are arranged in order of level of difficulty
 
