@@ -93,22 +93,22 @@ This is a bit of a mind-bend, so let's just replace the entire `set_map_x()` on 
 ```lua
 -- set a single space on map
 function set_map_x(flr_hgt,x)
-	-- clear
-	for j=0,17 do
+ -- clear
+ for j=0,17 do
   mset(x,j,24)
  end
  for j=0,flr_hgt do
   -- negative nums make no floors
-		mset(x,15-j,16)
-		-- animation map swap
-		mset(x,16,16)
-	end
-	-- make lava
-	if flr_hgt < 1 then
-	 mset(x,15,LAVA_SPRITE1)
-	 -- animation map swap
-	 mset(x,16,LAVA_SPRITE2)
-	end
+  mset(x,15-j,16)
+  -- animation map swap
+  mset(x,16,16)
+ end
+ -- make lava
+ if flr_hgt < 1 then
+  mset(x,15,LAVA_SPRITE1)
+  -- animation map swap
+  mset(x,16,LAVA_SPRITE2)
+ end
 end
 ```
 
