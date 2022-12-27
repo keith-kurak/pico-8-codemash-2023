@@ -85,7 +85,7 @@ function _update60()
  p.x=p.x+p.dx
 end
 ```
-At this point, the player should be able to move left/ right, but will fall through the floor.
+🏃**Try it!** At this point, the player should be able to move left/ right, but will fall through the floor.
 
 **got a syntax error?** Check your refactoring in step 2, make sure you applied your refactor all throughout the code.
 
@@ -122,7 +122,7 @@ Now, add collision to `_update60()` directly after your button presses:
    p.dy=0
  end
 ```
-At this point, the sprite should stop falling through the floor
+🏃**Try it!** At this point, the sprite should stop falling through the floor.
 
 ### 5. Add jump
 Add this directly after your left/ right button presses:
