@@ -89,15 +89,15 @@ Include level in the calculations to determine the odds of lava or thorns. Be cr
 ```lua
 function gen_floor_height()
  -- negative = no floor
-	local has_flr = rnd(8+level)-(level) > 0
-	if (not has_flr) then
-		return 0
-	end
-	return flr(rnd(3 + level * 0.34)) + 1
+ local has_flr = rnd(8+level)-(level) > 0
+ if (not has_flr) then
+  return 0
+ end
+ return flr(rnd(3 + level * 0.34)) + 1
 end
 
 function has_thorns()
-	return rnd(100)-(97-(level*2)) > 0
+ return rnd(100)-(97-(level*2)) > 0
 end
 ```
 
