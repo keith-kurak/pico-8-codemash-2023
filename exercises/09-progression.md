@@ -3,7 +3,7 @@
 Further motivate the player to proceed forward by creating level progression
 ## Tasks
 1. Update a "level" value each time the map regenerates
-2. Change the backdrop color when the level changes
+2. Visual/ audio cue for when the level changes
 3. Increase the difficulty as the level increases
 4. Add a basic "title screen" state
 ## Useful info
@@ -32,7 +32,7 @@ Update the level when calling `gen_map()` in `_update60()`:
 level = level + 1
 ```
 
-### 2. Change the background when the level updates
+### 2. Change the background/ play a sound when the level updates
 Pick three colors that don't clash with your existing sprites as backdrops, and set those at the top of tab 0:
 ```lua
 backdrops = {
@@ -44,6 +44,11 @@ In `_draw()`, before drawing the map, draw the backdrop:
 ```lua
 rectfill(0,0,128,128,backdrops[level % 3])
 ```
+
+Back in `_update60()`, play a sound when the level changes. Recall lesson 6 on how to make and play SFX
+
+
+🏃**Try it!** Doesn't technically do much, but looks/ sounds cooler
 
 ### 3. Add a not started/ title state
 Add a variable at the top of tab 0 to indicate that the game hasn't started:
@@ -76,6 +81,8 @@ if (p.gameover) then
  end
 ```
 
+🏃**Try it!** Think of this as a placeholder for a more elaborate title screen.
+
 ### 4. Increase the difficulty as the level increases
 Include level in the calculations to determine the odds of lava or thorns. Be creative! Here's some ideas:
 
@@ -95,4 +102,4 @@ end
 ```
 
 ### Bonus:
-- Add SFX for changing levels and/ or dying
+- Add SFX for game over
