@@ -83,6 +83,7 @@ function _update60()
  -- update forward/ upward motion
  p.y=p.y+p.dy
  p.x=p.x+p.dx
+end
 ```
 At this point, the player should be able to move left/ right, but will fall through the floor.
 
