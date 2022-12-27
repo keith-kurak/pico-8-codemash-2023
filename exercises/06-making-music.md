@@ -6,6 +6,8 @@ Make an annoying music loop and a jump sound
 2. Start the music when the game starts and end it on game over
 3. Add a sound when the player jumps
 ## Useful info
+The keyboard piano keyboard on your computer keyboard
+<img src="./assets/music/kesha/pico8piano.png" width="400"/>
 ### New API's
 [SFX](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SFX)
 ```
