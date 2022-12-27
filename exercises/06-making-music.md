@@ -7,7 +7,7 @@ Make an annoying music loop and a jump sound
 3. Add a sound when the player jumps
 ## Useful info
 The keyboard piano keyboard on your computer keyboard
-<img src="./assets/music/kesha/pico8piano.png" width="400"/>
+<img src="./assets/pico8piano.png" width="400"/>
 ### New API's
 [SFX](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SFX)
 ```
