@@ -88,7 +88,7 @@ end
 
 🏃**Try it!** 'nuff said.
 
-### 6. Animate the lave with map switching
+### 6. Animate the lava with map switching
 This is a bit of a mind-bend, so let's just replace the entire `set_map_x()` on tab 2:
 ```lua
 -- set a single space on map
