@@ -129,9 +129,9 @@ Add this directly after your left/ right button presses:
 ```lua
  -- jump
  if btnp(🅾️) and
-   (p.on_ground or p.jump<1) then
-   p.on_ground=false
-   p.jump+=1
-   p.dy=p.dy-2
+  (p.on_ground or p.jump<1) then
+  p.on_ground=false
+  p.jump+=1
+  p.dy=p.dy-2
  end
  ```
