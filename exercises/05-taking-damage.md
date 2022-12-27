@@ -24,10 +24,9 @@ Give it a flag of 2. This will indicate something causes damage.
 Add this to the very end `set_map_x()`
 ```lua
 -- make lava
-	if flr_hgt < 1 then
-	 mset(x,15,[LAVA SPRITE #])
-	end
-
+if flr_hgt < 1 then
+ mset(x,15,[LAVA SPRITE #])
+end
 ```
 
 ### 3. Create game over screen
@@ -75,8 +74,9 @@ At the top of `_update60()`, apply gameover status based on hitting the lava/ al
   p.gameover=true
   return
  end
-
 ```
+
+🏃**Try it!** It's technically a game now, celebrate!
 
 ### 5. Add thorns/ spikes
 
