@@ -135,3 +135,8 @@ Add this directly after your left/ right button presses:
   p.dy=p.dy-2
  end
  ```
+ 
+## Stretch goals
+If you need more to do, here's some ideas:
+- Improve the acceleration/ deceleration/ jump physics
+- Improve the collision
