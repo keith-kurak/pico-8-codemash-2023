@@ -34,9 +34,9 @@ function hit_spr(x1,y1,x2,y2)
 
  -- if top of A is lower than bottom of B, OR
  -- if top of B is lower than bottom of A
-	if (y1 >= y2+8 or y2 >= y1+8) return false;
+ if (y1 >= y2+8 or y2 >= y1+8) return false;
 
-	return true;
+ return true;
 end
 ```
 ### 2. Draw the sprite for your evil wall
@@ -69,6 +69,8 @@ if (p.x - wall.x > 64 or wall.x > p.x) then
  wall.x = p.x - 64
 end
 ```
+
+🏃**Try it!** Now you can't go backwards and fall off the missing map. Yay!
 
 ### 5. Set up high score storage
 Add this at the top of your code to setup data storage:
