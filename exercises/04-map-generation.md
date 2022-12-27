@@ -62,7 +62,7 @@ function set_map_x(flr_hgt,x)
  end
  for j=0,flr_hgt do
   -- negative nums make no floors
- mset(x,15-j,1)
+  mset(x,15-j,1)
  end
 end
 ```
@@ -73,7 +73,7 @@ Then add this to the end of your `_init()`:
  gen_map()
 ```
 
-At this point, you should be able to run the program and run all the way to the end of the map.
+🏃**Try it!** At this point, you should be able to run the program and run all the way to the end of the map.
 
 ### 2. Keep generating more map
 
@@ -86,7 +86,7 @@ if p.x >= (127-12)*8 then
 end
 ```
 
-Now, you should be able to run the program and run to the end of the map _and_ keep running. But the seams will be obvious, because the same map is used for the beginning/ end of each loop.
+🏃**Try it!** Now, you should be able to run the program and run to the end of the map _and_ keep running. But the seams will be obvious, because the same map is used for the beginning/ end of each loop.
 
 ### 3. Remove the seams
 
