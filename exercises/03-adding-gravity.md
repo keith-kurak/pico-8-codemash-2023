@@ -87,6 +87,8 @@ end
 ```
 At this point, the player should be able to move left/ right, but will fall through the floor.
 
+**got a syntax error?** Check your refactoring in step 2, make sure you applied your refactor all throughout the code.
+
 ### 4. Add a map tile collision function
 Create a second code tab (tab 1), and add this:
 ```lua
