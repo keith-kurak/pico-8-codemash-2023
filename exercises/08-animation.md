@@ -14,6 +14,7 @@ These are arranged in order of level of difficulty
 
 ### 1. Rearrange your sprites
 Give yourself some space on the sprite sheet so you can put animation frames next to each other. Test your game to make sure you didn't break any sprites!
+
 <img src="./assets/spritespace.png" width="400"/>
 
 ### 2. Create frames of animation
@@ -34,6 +35,8 @@ else
  spr(1,p.x,p.y)
 end
 ```
+
+🏃**Try it!** Funny how much more life-like this thing looks with one simple animation
 
 ### 4. Animate the evil wall
 Add a global animation timer matching the frame/ second in `_init()`
@@ -59,6 +62,8 @@ end
 ```
 (the and/ or notation is a substitute for the ternary operator)
 
+🏃**Try it!** What else could we use this global timer for...?
+
 ### 5. Animate the sprite on run
 Add a `time = 0` field to the `player` table in `_init()`.
 
@@ -80,6 +85,8 @@ else
 ++spr(p.time < max_speed and 1 or 2,p.x,p.y)
 end
 ```
+
+🏃**Try it!** 'nuff said.
 
 ### 6. Animate the lave with map switching
 This is a bit of a mind-bend, so let's just replace the entire `set_map_x()` on tab 2:
