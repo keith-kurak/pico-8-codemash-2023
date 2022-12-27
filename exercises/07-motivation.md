@@ -9,8 +9,7 @@ Keep the player from going backwards and motivate them to go forwards
 ### New API's
 [CARTDATA](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#CARTDATA)
 ```
-Opens a permanent data storage slot indexed by ID that can be used to store and 
-retrieve up to 256 bytes (64 numbers) worth of data using DSET() and DGET().
+Opens a permanent data storage slot indexed by ID that can be used to store and retrieve up to 256 bytes (64 numbers) worth of data using DSET() and DGET().
 ```
 [DGET](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#DGET)
 ```
