@@ -9,6 +9,7 @@ Make an annoying music loop and a jump sound
 The keyboard piano keyboard on your computer keyboard
 
 <img src="./assets/pico8piano.png" width="400"/>
+
 ### New API's
 [SFX](https://www.lexaloffle.com/dl/docs/pico-8_manual.html#SFX)
 ```
