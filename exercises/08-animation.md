@@ -14,6 +14,7 @@ These are arranged in order of level of difficulty
 
 ### 1. Rearrange your sprites
 Give yourself some space on the sprite sheet so you can put animation frames next to each other. Test your game to make sure you didn't break any sprites!
+(see stretch goal below if you're feeling confident and want to future-proof this further)
 
 <img src="./assets/spritespace.png" width="400"/>
 
@@ -119,3 +120,6 @@ map(0,0,0,0,128,15)
 -- animate map
 map(0,g_time >= 30 and 15 or 16,0,120,128,1)
 ```
+
+## Stretch Goals
+- create constants for each of the sprites, so, if you have to move them again, you just have to change one value
