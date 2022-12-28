@@ -14,7 +14,6 @@ These are arranged in order of level of difficulty
 
 ### 1. Rearrange your sprites
 Give yourself some space on the sprite sheet so you can put animation frames next to each other. Test your game to make sure you didn't break any sprites!
-(see stretch goal below if you're feeling confident and want to future-proof this further)
 
 <img src="./assets/spritespace.png" width="400"/>
 
