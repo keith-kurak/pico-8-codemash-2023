@@ -95,13 +95,13 @@ This is a bit of a mind-bend, so let's just replace the entire `set_map_x()` on 
 function set_map_x(flr_hgt,x)
  -- clear
  for j=0,17 do
-  mset(x,j,24)
+  mset(x,j,BLANK_SPRITE)
  end
  for j=0,flr_hgt do
   -- negative nums make no floors
-  mset(x,15-j,16)
+  mset(x,15-j,FLOOR_SPRITE)
   -- animation map swap
-  mset(x,16,16)
+  mset(x,16,FLOOR_SPRITE)
  end
  -- make lava
  if flr_hgt < 1 then
