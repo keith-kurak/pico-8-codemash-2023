@@ -70,6 +70,13 @@ if (p.x - wall.x > 64 or wall.x > p.x) then
 end
 ```
 
+### 5. Check if the player hits the wall
+Add this check to the conditional checking for game over state.
+
+```lua
+hit_spr(p.x,p.y,wall.x,p.y)
+```
+
 🏃**Try it!** Now you can't go backwards and fall off the missing map. Yay!
 
 ### 5. Set up high score storage
