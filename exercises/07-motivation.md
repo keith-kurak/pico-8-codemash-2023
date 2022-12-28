@@ -71,8 +71,7 @@ end
 ```
 
 ### 5. Check if the player hits the wall
-Add this check to the conditional checking for game over state.
-
+Add this check to the conditional checking for game over state:
 ```lua
 hit_spr(p.x,p.y,wall.x,p.y)
 ```
