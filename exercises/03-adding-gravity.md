@@ -140,3 +140,4 @@ Add this directly after your left/ right button presses:
 If you need more to do, here's some ideas:
 - Improve the acceleration/ deceleration/ jump physics
 - Improve the collision
+- There's a jumping-related bug. See if you can find it (hint: try falling off a ledge)
