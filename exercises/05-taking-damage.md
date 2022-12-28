@@ -100,7 +100,7 @@ for i=16,111 do
 end
 ```
 
-##Stretch goals
+## Stretch goals
 If you need more to do, here's some ideas:
 
 - The game over state would look a lot better if the player dissappeared or otherwise appeared to be in peril. Fix that.
