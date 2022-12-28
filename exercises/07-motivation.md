@@ -79,7 +79,7 @@ hit_spr(p.x,p.y,wall.x,p.y)
 
 🏃**Try it!** Now you can't go backwards and fall off the missing map. Yay!
 
-### 5. Set up high score storage
+### 6. Set up high score storage
 Add this at the top of your code to setup data storage:
 ```lua
 cartdata("some_unique_str")
@@ -93,7 +93,7 @@ if (hi_score == nil) then
 end
 ```
 
-### 6. Print/ update the high score during the game
+### 7. Print/ update the high score during the game
 High score will just be forward distance, so we'll store distance and massage the value for display.
 
 Add `dist = 0` to the `player` table initialized in `_init()`.
@@ -120,7 +120,7 @@ print(hi_score,66,0,7)
 
 Notice that we update the high score when drawing. This is probably wrong! But it's easy. Feel free to fix it.
 
-### 7. Save the high score on game over
+### 8. Save the high score on game over
 Update the game over logic in `_update60()`:
 ```diff
 if hit(p.x,p.y,7,7,2) or
