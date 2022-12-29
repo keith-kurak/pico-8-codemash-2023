@@ -40,7 +40,7 @@ backdrops = {
 }
 ```
 
-In `_draw()`, before drawing the map, draw the backdrop:
+In `_draw()`, before ~~drawing the map~~ setting the camera position, draw the backdrop:
 ```lua
 rectfill(0,0,128,128,backdrops[level % 3])
 ```
@@ -103,3 +103,4 @@ end
 
 ### Bonus:
 - Add SFX for game over
+- Refactor the hud into its own function in a new tab 3
