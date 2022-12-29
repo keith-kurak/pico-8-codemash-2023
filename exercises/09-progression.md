@@ -75,11 +75,10 @@ if (p.gameover) then
   camera()
   print("~Your title here~",8,60,10)
   print("press 🅾️ to start",28,68, 10)
- else
-  -- draw player
-  -- ...
  end
 ```
+
+HINT: may be a good time to refactor your draw order. E.g., draw the HUD last, and only draw the player if not in game over/ not started state.
 
 🏃**Try it!** Think of this as a placeholder for a more elaborate title screen.
 
@@ -104,3 +103,4 @@ end
 ### Bonus:
 - Add SFX for game over
 - Refactor the hud into its own function in a new tab 3
+- Make a whole freakin' title screen, why not??
