@@ -73,7 +73,7 @@ if (p.gameover) then
   -- ...
  elseif (not_started) then
   camera()
-  print("~Your title here~",8,60,10)
+  print("~Your title here~",28,60,10)
   print("press 🅾️ to start",28,68, 10)
  end
 ```
