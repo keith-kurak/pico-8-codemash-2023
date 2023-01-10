@@ -9,3 +9,20 @@ Materials and examples for the PICO-8 Precompiler at Codemash 2023
 These show the final game (after lesson 9), the final-final game (posted on Lexaloffle with some enhancements), and the game in various states after each exercise.
 
 [Example carts](/exercises/example-carts)
+
+## Rough Schedule
+### INTRO
+- Move a sprite
+- Move a sprite on a map
+- Move a sprite on a map with gravity and collision detection
+### BREAK
+- Randomly generate a map on a never-ending loop
+- Make the map dangerous/ cause a game over
+- Make an obnoxiously-repetitive musical loop
+### BREAK
+- Motivation: carrot (keeping score) and stick (oncoming freight train)
+- Add just enough animation to impress time travelers from 1981
+- Make the game more difficult as you progress (y’know, like real games)
+
+## Slides (more like notes)
+[link to slides](https://docs.google.com/presentation/d/1r3NV9RTaMFAomK2pf5O7Xey3lqxi6e6BJ5TNRkwmKKo/edit?usp=sharing)
