@@ -3,9 +3,10 @@ Materials and examples for the PICO-8 Precompiler at Codemash 2023
 ## Reach out
 Find me at
 
-[https://twitter.com/llamaluvr](twitter)
+[twitter](https://twitter.com/llamaluvr)
 
-[https://www.linkedin.com/in/keith-kurak)[linkedin]
+[linkedin](https://www.linkedin.com/in/keith-kurak)
+
 ## Stuff you absolutely need
 - [PICO-8 Education edition](https://www.pico-8-edu.com/)
 ## Helpful stuff
